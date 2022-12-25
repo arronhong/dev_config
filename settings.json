@@ -1,0 +1,32 @@
+{
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [80, 120],
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 1,
+
+    "ruby.useLanguageServer": true,
+    "ruby.lint": {
+        "rubocop": {
+            "require": [
+                "rubocop-rails"
+            ]
+        },
+        "ruby": {
+            "unicode": true // Runs ruby -wc -Ku
+        }
+    },
+    "ruby.format": "rubocop",
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "ruby.intellisense": "rubyLocate",
+
+    "python.venvPath": "~/.virtualenvs"
+}
