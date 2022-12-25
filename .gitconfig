@@ -1,0 +1,13 @@
+[user]
+	email = arronhong216@gmail.com
+	name = Jien-Feng Hong
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	tree = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ad)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all --date=short
+	ci = commit
+[color]
+	ui = true
+[core]
+	filemode = false
